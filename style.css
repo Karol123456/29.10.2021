@@ -32,7 +32,7 @@ a{
 }
 
 body.hovered {
-    background: rgb(32, 32, 32);
+    background: rgb(44, 44, 44);
     transition: 0.5s;
 }
 
@@ -52,9 +52,10 @@ ul.menu a:hover{
 
     ul.menu a{
         font-size: 36px;
-        color: black;
+        color: rgb(0, 0, 0);
         }
 
+       
 }
 
 
@@ -72,8 +73,25 @@ ul.menu a:hover{
     text-align: center !important;
     transition: 2s;
     font-size: 41px;
+   
+   justify-content: space-between;
 }
 
 .fontsizehover{
     color: pink;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.welcomewhite{
+    color: white;
+}
+
+.welcomeblack{
+    color: black;
 }
