@@ -1,0 +1,79 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+   
+     transition: all 300ms ease-out;
+}
+
+
+ul.menu{
+    position: absolute;
+   
+    top: 24%;
+   
+    width: auto;
+    margin-left:50px;
+}
+
+ul.menu a{
+font-size: 49px;
+color: black;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.przerwa{
+    height: 15px;
+}
+
+body.hovered {
+    background: rgb(32, 32, 32);
+    transition: 0.5s;
+}
+
+ul.menu a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 320px) and (max-width : 768px) {
+    ul.menu{
+        position: absolute;
+       
+        top: 24%;
+        width: auto;
+        
+    }
+
+    ul.menu a{
+        font-size: 36px;
+        color: black;
+        }
+
+}
+
+
+.text-center{
+    text-align: center !important;
+    justify-content: center;
+}
+
+.portfolio {
+    color: black;
+}
+
+.port2{
+    color: white;
+    text-align: center !important;
+    transition: 2s;
+    font-size: 41px;
+}
+
+.fontsizehover{
+    color: pink;
+}
