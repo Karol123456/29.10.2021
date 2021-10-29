@@ -11,7 +11,7 @@ ul.menu{
     top: 24%;
    
     width: auto;
-  
+    margin-left:50px;
 }
 
 ul.menu a{
@@ -28,7 +28,7 @@ a{
 }
 
 .przerwa{
-    height: 10px;
+    height: 15px;
 }
 
 body.hovered {
@@ -42,6 +42,11 @@ ul.menu a:hover{
 }
 
 @media screen and (min-width: 320px) and (max-width : 768px) {
+    
+    *{
+        background-color: rgb(46, 46, 46);
+    }
+    
     ul.menu{
         position: absolute;
        
@@ -52,7 +57,7 @@ ul.menu a:hover{
 
     ul.menu a{
         font-size: 36px;
-        color: rgb(0, 0, 0);
+        color: white;
         }
 
        
@@ -70,10 +75,11 @@ ul.menu a:hover{
 
 .port2{
     color: white;
-    
+    text-align: center !important;
     transition: 2s;
     font-size: 41px;
    
+   justify-content: space-between;
 }
 
 .fontsizehover{
@@ -81,7 +87,10 @@ ul.menu a:hover{
 }
 
 
-
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
 
 .welcomewhite{

@@ -1,6 +1,6 @@
 var button = document.getElementById('hover');
 var body = document.body;
-const portfolio = document.getElementById('hoverdwa');
+const portfolio = document.getElementById('welcome');
 const fontsize = document.getElementById('fontsize')
 var welcome = document.getElementById('welcome')
 
