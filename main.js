@@ -10,7 +10,7 @@ button.onmouseover = function() {
 	body.className = 'hovered';
     portfolio.className = 'port2';
     fontsize.className = 'fontsizehover';
-   welcome.className = 'welcomewhite';
+   welcome.style.color = 'white';
     
 
   
@@ -18,7 +18,7 @@ button.onmouseover = function() {
 
 button.onmouseout = function() {
 	body.className = '';
-    if(welcome.className === 'welcomewhite' ) welcome.className = 'welcomeblack'
+    if(welcome.style.color === 'white'  & body.className === '')  welcome.style.color = 'black';
 }
 
 

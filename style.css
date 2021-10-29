@@ -11,7 +11,7 @@ ul.menu{
     top: 24%;
    
     width: auto;
-    margin-left:50px;
+  
 }
 
 ul.menu a{
@@ -28,7 +28,7 @@ a{
 }
 
 .przerwa{
-    height: 15px;
+    height: 10px;
 }
 
 body.hovered {
@@ -70,11 +70,10 @@ ul.menu a:hover{
 
 .port2{
     color: white;
-    text-align: center !important;
+    
     transition: 2s;
     font-size: 41px;
    
-   justify-content: space-between;
 }
 
 .fontsizehover{
@@ -82,10 +81,7 @@ ul.menu a:hover{
 }
 
 
-.grid{
-    display: grid;
-    grid-template-columns: auto auto;
-}
+
 
 
 .welcomewhite{
