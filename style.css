@@ -5,21 +5,20 @@
 }
 
 
-ul.menu{
-    position: absolute;
-   
-    top: 24%;
-   
-    width: auto;
-    margin-left:50px;
-}
+
 
 ul.menu a{
 font-size: 49px;
 color: black;
+text-decoration: none;
+
 }
 
 li{
+    list-style: none;
+}
+
+ul{
     list-style: none;
 }
 
@@ -41,36 +40,19 @@ ul.menu a:hover{
     transition: 0.5s;
 }
 
-@media screen and (min-width: 320px) and (max-width : 768px) {
-    
-    *{
-        background-color: rgb(46, 46, 46);
-    }
-    
-    ul.menu{
-        position: absolute;
-       
-        top: 24%;
-        width: auto;
-        
-    }
 
-    ul.menu a{
-        font-size: 36px;
-        color: white;
-        }
+/* h2{
+    position: relative;
+    font-size: 20px;
+    color: violet;
+    -webkit-text-stroke: 2.3px blue;
+} */
+ 
 
-       
-}
-
-
-.text-center{
-    text-align: center !important;
-    justify-content: center;
-}
 
 .portfolio {
-    color: black;
+    color: white;
+  
 }
 
 .port2{
@@ -95,8 +77,276 @@ ul.menu a:hover{
 
 .welcomewhite{
     color: white;
+    transition: all 4100ms ease-out;
 }
 
 .welcomeblack{
     color: black;
+    transition: all 4800ms ease-out;
 }
+
+
+@media screen and (min-width: 1201px)  {
+
+    
+.welcome{
+    transition: 2s;
+    font-size: 20px;
+}
+    
+
+.portfolio{
+    display: none;
+}
+
+    ul.menu a{
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+ width: 190px;
+ font-weight:550;
+  display: inline-block;
+   
+    }
+    
+    .menu{
+    
+        display: flex;
+         top: 24%;
+        width: 17%;
+         width: auto;
+         margin-left:50px;
+         
+     }
+
+    li{
+        list-style: none;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+   
+
+}
+
+
+    @media screen and (min-width: 320px) and (max-width : 480px) {
+    
+*{
+    background: rgb(44, 44, 44);
+}
+
+        #welcome{
+          display: none;
+        }
+            
+.menu{
+    float: left;
+    display: block;
+    
+    text-align: center;
+  
+    text-decoration: none;
+    font-size: 17px;
+}
+
+            ul.menu a{
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+           
+           
+            }
+            
+            ul.menu{
+                display: inline-block;
+            }
+
+            li{
+                list-style: none;
+            }
+            
+            ul{
+                list-style: none;
+            }
+            
+            a{
+                text-decoration: none;
+            }
+    
+           
+    }
+
+
+    @media screen and (min-width: 481px) and (max-width : 768px) {
+    
+       .portfolio{
+           display: none;
+       }
+
+        *{
+            background: rgb(44, 44, 44);
+        }
+        
+                #welcome{
+                  display: none;
+                }
+                    
+        .menu{
+            float: left;
+            display: block;
+            
+            text-align: center;
+          
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+                    ul.menu a{
+                    font-size: 25px;
+                    color: rgb(255, 255, 255);
+                   
+                   
+                    }
+                    
+                    ul.menu{
+                        display: inline-block;
+                    }
+        
+                    li{
+                        list-style: none;
+                    }
+                    
+                    ul{
+                        list-style: none;
+                    }
+                    
+                    a{
+                        text-decoration: none;
+                    }
+            
+                   
+            }
+
+            @media screen and (min-width: 769px) and (max-width : 1024px) {
+    
+                .portfolio{
+                    display: none;
+                }
+         
+                 *{
+                     background: rgb(44, 44, 44);
+                 }
+                 
+                         #welcome{
+                           display: none;
+                         }
+                             
+                 .menu{
+                     float: left;
+                     display: block;
+                     
+                     text-align: center;
+                   
+                     text-decoration: none;
+                     font-size: 17px;
+                 }
+                 
+                             ul.menu a{
+                             font-size: 25px;
+                             color: rgb(255, 255, 255);
+                            
+                            
+                             }
+                             
+                             ul.menu{
+                                 display: inline-block;
+                             }
+                 
+                             li{
+                                 list-style: none;
+                             }
+                             
+                             ul{
+                                 list-style: none;
+                             }
+                             
+                             a{
+                                 text-decoration: none;
+                             }
+                     
+                            
+                     }
+
+
+                     @media screen and (min-width: 1025px) and (max-width : 1200px) {
+    
+                        .portfolio{
+                            display: none;
+                        }
+                 
+                         *{
+                             background: rgb(44, 44, 44);
+                         }
+                         
+                                 #welcome{
+                                   display: none;
+                                 }
+                                     
+                         .menu{
+                             float: left;
+                             display: block;
+                             
+                             text-align: center;
+                           
+                             text-decoration: none;
+                             font-size: 17px;
+                         }
+                         
+                                     ul.menu a{
+                                     font-size: 45px;
+                                     color: rgb(255, 255, 255);
+                                    
+                                    
+                                     }
+                                     
+                                     ul.menu{
+                                         display: inline-block;
+                                     }
+                         
+                                     li{
+                                         list-style: none;
+                                     }
+                                     
+                                     ul{
+                                         list-style: none;
+                                     }
+                                     
+                                     a{
+                                         text-decoration: none;
+                                     }
+                             
+                                    
+                             }
+
+
+    #fontsize{
+        transition: all 2200ms ease-out;
+    }
+
+    #fontsize2{
+            transition: all 2200ms ease-out;
+    }
+
+    #fontsize3{
+         transition: all 2200ms ease-out;
+    }
+
+    #fontsize4{
+      transition: all 2200ms ease-out;
+    }

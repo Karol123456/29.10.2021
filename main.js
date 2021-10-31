@@ -1,24 +1,28 @@
-var button = document.getElementById('hover');
+var button = document.getElementById('text-center');
 var body = document.body;
 const portfolio = document.getElementById('welcome');
-const fontsize = document.getElementById('fontsize')
+var fontsize = document.getElementById('fontsize')
+var fontsize2 = document.getElementById('fontsize2')
+var fontsize3 = document.getElementById('fontsize3')
+var fontsize4 = document.getElementById('fontsize4')
 var welcome = document.getElementById('welcome')
 
 
 
-button.onmouseover = function() {
+body.onmouseover = function() {
 	body.className = 'hovered';
     portfolio.className = 'port2';
-    fontsize.className = 'fontsizehover';
    welcome.style.color = 'white';
-    
-
-  
+   welcome.style.fontSize = '20px';
+   fontsize.style.color = 'white';
+   fontsize2.style.color = 'white';
+   fontsize3.style.color = 'white';
+   fontsize4.style.color = 'white';
 }
 
-button.onmouseout = function() {
-	body.className = '';
-    if(welcome.style.color === 'white'  & body.className === '')  welcome.style.color = 'black';
+body.onmouseout = function(body) {
+	body.className = 'hovered';
+   
 }
 
 
